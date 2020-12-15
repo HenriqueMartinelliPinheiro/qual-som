@@ -1,0 +1,159 @@
+/* ========= GERENCIAMENTO DE TELA ========= */
+/* section.inicio{ display: none;} */
+section.som01{ display: none;}
+section.som02{ display: none;}
+section.fim01{ display: none;}
+section.fim02{ display: none;} 
+
+/* ========= CARREGAR FONTS ========= */
+@font-face {
+     font-family: abel;
+     src: url('../font/Abel-Regular.ttf');
+}
+@font-face {
+  font-family: 'mticons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/MaterialIcons-Regular.ttf);
+}
+
+.mticons{
+    font-family:mticons;
+}
+
+.faicons{
+    font-family:faicons;
+}
+
+/* ========= DEFINIÇÕES GERAIS ========= */
+body{
+    font-family:abel;
+    color: white;
+    background: #483D8B;
+}
+section, body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* ========= TELA 1 - INÍCIO ========= */
+section.inicio{
+    text-align: center;
+    background: url(../img/som.png) no-repeat center bottom;
+    background-size: 60% auto;
+}
+section.inicio h1{
+    font-size: 5em;
+    margin: 7vh 5vw 0 5vw;
+}
+section.inicio button{
+    background: linear-gradient(to bottom, #f2f2f2, #e0dede);
+    border: none;
+    font-size: 2em;
+    color: #787878;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5);
+    width: 80vw;
+    margin: 10vw auto;
+    padding: 20px 0;
+    border-radius: 4px;
+}
+
+
+/* ========= TELA 1 - INÍCIO ========= */
+section.som01{
+    color: white;
+}
+section.som header{
+    background: orangered;
+    font-size: 1.5em;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    height: 8vh;
+    box-sizing: border-box;
+}
+section.som header p span.mticons{
+    font-size: 1em;
+    padding: 3px 2px 0 2px;
+    position: relative;
+    top: 2px;
+}
+
+section.som div {
+    height: 78vh;
+    padding: 6vh 5vw 0 5vw;
+}
+section.som div h1{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0 0 1vh 0;
+    font-size: 2em;
+}
+section.som ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section.som div ul{
+    padding: 3vh 0;
+}
+section.som div ul li{
+    width: 22vw;
+    height: 22vw;
+    margin: 0vh 1vw 4vh 1vw;
+}
+section.som ul li img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #e3d7cb;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5); 
+}
+
+section.som footer{
+    width: 100vw;
+    height: 14vh;
+    background:orangered;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    padding: 8px 0 0 0;
+}
+section.som footer p{
+     display: flex;
+    justify-content: space-around;
+}
+section.som footer span.mticons{
+    position: relative;
+    top: 2px;
+}
+
+section.fim01{
+    text-align: center;
+    background: url(../img/trophy.png) no-repeat center bottom;
+    background-size: 50% auto;
+    background-position: center bottom 50px;
+}
+
+section.fim02{
+    text-align: center;
+    background: url(../img/emojitriste.png) no-repeat center bottom;
+    background-size: 50% auto;
+    background-position: center bottom 30px;
+    
+}
+
+section.fim01, section.fim02 h1{
+    font-size: 4em;
+    margin: 7vh 5vw 5vh 5vw;
+}
+
+section.fim01 h1.tempo{
+    font-size: 0.8em;
+    margin: 7vh 5vw 5vh 5vw;
+}
