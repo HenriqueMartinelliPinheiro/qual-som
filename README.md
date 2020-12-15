@@ -5,6 +5,6 @@ Neste jogo o usuário ouvirá o som de um animal, e então terá que descobrir a
 
 ## Tecnologias:
 
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
